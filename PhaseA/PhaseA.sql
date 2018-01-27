@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS product_orders, users, product;
+
 CREATE TABLE users (
     `id` int NOT NULL auto_increment,
     `role` tinyint NOT NULL default 1,
